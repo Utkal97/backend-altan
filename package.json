@@ -1,0 +1,22 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "Upload and Download files with terminate functionality",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "nodemon server.js"
+  },
+  "author": "Utkal",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "formidable": "^2.0.0-canary.20200212.1",
+    "jsonwebtoken": "^8.5.1",
+    "send": "^0.17.1"
+  }
+}
